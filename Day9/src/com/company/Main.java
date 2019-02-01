@@ -6,6 +6,9 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
+import static com.company.DnsProvider.CLOUDFLARE;
+import static com.company.DnsProvider.GOOGLE;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -30,8 +33,39 @@ public class Main {
 //        List<Birch> birchList = Arrays.asList(birch, new Birch(), new Birch());
 //        birchForest(birchList);
         /////////////////////////////////////
+//        Map<DnsProvider,DnsServer> dnsMap = new Map<>();
+//        dnsMap.add(GOOGLE, new DnsServer("8.8.8.8", "8.8.4.4"));
+//        dnsMap.add(CLOUDFLARE, new DnsServer("1.1.1.1", "1.0.0.1"));
+//        System.out.println(dnsMap.get(GOOGLE));
+//        System.out.println(dnsMap.get(CLOUDFLARE));
+//        Map<String, String> stringMap = new Map<>();
+//        stringMap.add("Hello", "World");
+//        stringMap.add("Sveikas", "Pasauli");
+//        System.out.println(stringMap.get("Hello"));
+//        System.out.println(stringMap.get("Sveikas"));
+        /////////////////////////////////////
+        ListOfNumbers list1 = new ListOfNumbers();
+        ListOfNumbers list2 = new ListOfNumbers();
+        ListOfNumbers list3 = new ListOfNumbers();
+        ListOfNumbers list4 = new ListOfNumbers();
 
+        list1.addNumber(1.0);
+        list1.addNumber(2.0);
+        list1.addNumber(3.0);
 
+        list1.addNumber(2.7);
+        list1.addNumber(12.3);
+        list1.addNumber(3.1);
+
+        list1.addNumber(7.0);
+        list1.addNumber(1.2);
+        list1.addNumber(14.9);
+
+        list1.addNumber(6.3);
+        list1.addNumber(4.2);
+        list1.addNumber(9.1);
+
+        findWithMaxAverage(list1, list2, list3, list4);
     }
 
     private static void printArrays(Object[]... arr){
@@ -70,5 +104,11 @@ public class Main {
             ((Tree) b).has();
         }
         System.out.println();
+    }
+
+    private static void findWithMaxAverage(ListOfNumbers... arr){
+        for (ListOfNumbers l: arr){
+            System.out.println(l);
+        }
     }
 }

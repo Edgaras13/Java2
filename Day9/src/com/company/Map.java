@@ -3,19 +3,19 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Map {
-    private List<Pair> pairList = new ArrayList<>();
+public class Map <K, V> {
+    private List<Pair<K, V>> pairList = new ArrayList<>();
 
-    public void add(Object key, Object value){
+    public void add(K key, V value){
         pairList.add(new Pair(key, value));
     }
 
-    public Object get(Object key){
+    public V get(K key){
         for(Pair p: pairList){
             if (p.getKey().equals(key)){
-                return p.getValue();
+                return (V) p.getValue();
             }
         }
-        return -1;
+        return null;
     }
 }
