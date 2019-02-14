@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>Maven2</groupId>
+    <artifactId>maven2</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>maven2module</module>
+    </modules>
+
+    <properties>
+        <Faker.groupId>com.github.javafaker</Faker.groupId>
+        <Faker.artifactId>javafaker</Faker.artifactId>
+        <Faker.version>0.17.2</Faker.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>${Faker.groupId}</groupId>
+                <artifactId>${Faker.artifactId}</artifactId>
+                <version>${Faker.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>20041127.091804</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>

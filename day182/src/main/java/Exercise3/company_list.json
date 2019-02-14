@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Hamill, McClure and Kemmer",
+    "code": 0,
+    "workerCount": 141,
+    "avgSalary": 4950.04
+  },
+  {
+    "name": "Volkman Inc",
+    "code": 1,
+    "workerCount": 1823,
+    "avgSalary": 1784.36
+  },
+  {
+    "name": "Price, Baumbach and Barton",
+    "code": 2,
+    "workerCount": 1130,
+    "avgSalary": 6619.32
+  },
+  {
+    "name": "Ratke-Schulist",
+    "code": 3,
+    "workerCount": 2052,
+    "avgSalary": 1770.08
+  },
+  {
+    "name": "Swaniawski LLC",
+    "code": 4,
+    "workerCount": 2395,
+    "avgSalary": 2306.19
+  },
+  {
+    "name": "Kertzmann and Sons",
+    "code": 5,
+    "workerCount": 2946,
+    "avgSalary": 3617.82
+  },
+  {
+    "name": "Dicki, Breitenberg and Doyle",
+    "code": 6,
+    "workerCount": 2101,
+    "avgSalary": 4743.76
+  },
+  {
+    "name": "Hayes Inc",
+    "code": 7,
+    "workerCount": 87,
+    "avgSalary": 5195.79
+  },
+  {
+    "name": "Hodkiewicz-Dickinson",
+    "code": 8,
+    "workerCount": 1429,
+    "avgSalary": 3641.57
+  },
+  {
+    "name": "Carroll and Sons",
+    "code": 9,
+    "workerCount": 2246,
+    "avgSalary": 2433.71
+  },
+  {
+    "name": "Keeling, Dooley and Hirthe",
+    "code": 10,
+    "workerCount": 806,
+    "avgSalary": 6277.28
+  },
+  {
+    "name": "Boyer, Wisozk and Will",
+    "code": 11,
+    "workerCount": 2910,
+    "avgSalary": 8793.14
+  },
+  {
+    "name": "Wiza-O'Keefe",
+    "code": 12,
+    "workerCount": 2335,
+    "avgSalary": 6743.4
+  },
+  {
+    "name": "Bruen-Dooley",
+    "code": 13,
+    "workerCount": 2151,
+    "avgSalary": 5140.04
+  },
+  {
+    "name": "Farrell-Fahey",
+    "code": 14,
+    "workerCount": 804,
+    "avgSalary": 7148.55
+  },
+  {
+    "name": "Lynch, Daugherty and Stark",
+    "code": 15,
+    "workerCount": 669,
+    "avgSalary": 2379.76
+  },
+  {
+    "name": "Crooks, Zemlak and Frami",
+    "code": 16,
+    "workerCount": 1410,
+    "avgSalary": 7679.54
+  },
+  {
+    "name": "Runolfsdottir, Mayert and Cruickshank",
+    "code": 17,
+    "workerCount": 1126,
+    "avgSalary": 4037.92
+  },
+  {
+    "name": "Mitchell, Mertz and Cronin",
+    "code": 18,
+    "workerCount": 2492,
+    "avgSalary": 4583.99
+  },
+  {
+    "name": "Marks LLC",
+    "code": 19,
+    "workerCount": 341,
+    "avgSalary": 5928.92
+  },
+  {
+    "name": "Runolfsdottir-Denesik",
+    "code": 20,
+    "workerCount": 2276,
+    "avgSalary": 8875.3
+  },
+  {
+    "name": "Gerhold LLC",
+    "code": 21,
+    "workerCount": 789,
+    "avgSalary": 7423.4
+  },
+  {
+    "name": "Baumbach Inc",
+    "code": 22,
+    "workerCount": 1137,
+    "avgSalary": 6284.66
+  },
+  {
+    "name": "Stokes, Johns and Simonis",
+    "code": 23,
+    "workerCount": 2024,
+    "avgSalary": 5819.05
+  },
+  {
+    "name": "Parisian, Wiegand and Baumbach",
+    "code": 24,
+    "workerCount": 2217,
+    "avgSalary": 8113.32
+  },
+  {
+    "name": "Ortiz-Zemlak",
+    "code": 25,
+    "workerCount": 1345,
+    "avgSalary": 9435.6
+  },
+  {
+    "name": "Jaskolski-Kemmer",
+    "code": 26,
+    "workerCount": 2693,
+    "avgSalary": 2064.33
+  },
+  {
+    "name": "Harvey-Tromp",
+    "code": 27,
+    "workerCount": 835,
+    "avgSalary": 2881.74
+  },
+  {
+    "name": "Paucek-Rutherford",
+    "code": 28,
+    "workerCount": 1771,
+    "avgSalary": 3473.67
+  },
+  {
+    "name": "Schoen, Moen and Feil",
+    "code": 29,
+    "workerCount": 2898,
+    "avgSalary": 9791.79
+  },
+  {
+    "name": "Flatley-Will",
+    "code": 30,
+    "workerCount": 1834,
+    "avgSalary": 2355.26
+  },
+  {
+    "name": "Rohan-MacGyver",
+    "code": 31,
+    "workerCount": 2651,
+    "avgSalary": 7033.93
+  },
+  {
+    "name": "Funk and Sons",
+    "code": 32,
+    "workerCount": 2878,
+    "avgSalary": 6682.55
+  },
+  {
+    "name": "Considine-Larson",
+    "code": 33,
+    "workerCount": 1442,
+    "avgSalary": 5001.36
+  },
+  {
+    "name": "Schaden, Pollich and Green",
+    "code": 34,
+    "workerCount": 2865,
+    "avgSalary": 3093.62
+  },
+  {
+    "name": "Hackett-Champlin",
+    "code": 35,
+    "workerCount": 553,
+    "avgSalary": 1702.66
+  },
+  {
+    "name": "Luettgen, Sporer and McCullough",
+    "code": 36,
+    "workerCount": 2816,
+    "avgSalary": 744.01
+  },
+  {
+    "name": "Koelpin, Wehner and Anderson",
+    "code": 37,
+    "workerCount": 26,
+    "avgSalary": 8146.43
+  },
+  {
+    "name": "Davis, Kuhlman and Cronin",
+    "code": 38,
+    "workerCount": 2559,
+    "avgSalary": 8673.22
+  },
+  {
+    "name": "Conn, Willms and Crooks",
+    "code": 39,
+    "workerCount": 1580,
+    "avgSalary": 1606.11
+  },
+  {
+    "name": "Gutmann-Hilpert",
+    "code": 40,
+    "workerCount": 95,
+    "avgSalary": 378.99
+  },
+  {
+    "name": "Marvin Group",
+    "code": 41,
+    "workerCount": 2619,
+    "avgSalary": 32.29
+  },
+  {
+    "name": "Jacobs, Okuneva and Hilpert",
+    "code": 42,
+    "workerCount": 2509,
+    "avgSalary": 868.72
+  },
+  {
+    "name": "Satterfield-Blick",
+    "code": 43,
+    "workerCount": 71,
+    "avgSalary": 26.22
+  },
+  {
+    "name": "Heidenreich, Stracke and Dibbert",
+    "code": 44,
+    "workerCount": 822,
+    "avgSalary": 6951.74
+  },
+  {
+    "name": "Grady, Boehm and Heathcote",
+    "code": 45,
+    "workerCount": 1272,
+    "avgSalary": 8462.5
+  },
+  {
+    "name": "Bednar, Stokes and Padberg",
+    "code": 46,
+    "workerCount": 1368,
+    "avgSalary": 3058.26
+  },
+  {
+    "name": "Greenfelder Inc",
+    "code": 47,
+    "workerCount": 271,
+    "avgSalary": 372.84
+  },
+  {
+    "name": "Ondricka, Larkin and Heathcote",
+    "code": 48,
+    "workerCount": 1648,
+    "avgSalary": 4951.9
+  },
+  {
+    "name": "Auer-Hyatt",
+    "code": 49,
+    "workerCount": 2814,
+    "avgSalary": 7443.74
+  },
+  {
+    "name": "Ondricka-Collier",
+    "code": 50,
+    "workerCount": 2658,
+    "avgSalary": 3621.32
+  },
+  {
+    "name": "Gulgowski, Schowalter and Littel",
+    "code": 51,
+    "workerCount": 187,
+    "avgSalary": 1568.28
+  },
+  {
+    "name": "Haag-Bailey",
+    "code": 52,
+    "workerCount": 400,
+    "avgSalary": 9419.71
+  },
+  {
+    "name": "Kulas and Sons",
+    "code": 53,
+    "workerCount": 260,
+    "avgSalary": 4478.22
+  },
+  {
+    "name": "Hyatt-King",
+    "code": 54,
+    "workerCount": 1510,
+    "avgSalary": 7169.87
+  },
+  {
+    "name": "Kuphal-Considine",
+    "code": 55,
+    "workerCount": 972,
+    "avgSalary": 6137.49
+  },
+  {
+    "name": "Wiegand-Hahn",
+    "code": 56,
+    "workerCount": 1452,
+    "avgSalary": 3117.36
+  },
+  {
+    "name": "Thompson, Marvin and Grady",
+    "code": 57,
+    "workerCount": 515,
+    "avgSalary": 1806.71
+  },
+  {
+    "name": "Jerde-Boyle",
+    "code": 58,
+    "workerCount": 2516,
+    "avgSalary": 6127.06
+  },
+  {
+    "name": "Beatty-Conn",
+    "code": 59,
+    "workerCount": 584,
+    "avgSalary": 3532.97
+  },
+  {
+    "name": "Considine LLC",
+    "code": 60,
+    "workerCount": 842,
+    "avgSalary": 6896.61
+  },
+  {
+    "name": "Buckridge, Gutkowski and Bogisich",
+    "code": 61,
+    "workerCount": 2294,
+    "avgSalary": 8914.39
+  },
+  {
+    "name": "Legros, Batz and Ankunding",
+    "code": 62,
+    "workerCount": 2071,
+    "avgSalary": 1154.71
+  },
+  {
+    "name": "Rath, Reilly and Goldner",
+    "code": 63,
+    "workerCount": 2069,
+    "avgSalary": 2405.11
+  },
+  {
+    "name": "Schmitt, Hayes and Leuschke",
+    "code": 64,
+    "workerCount": 845,
+    "avgSalary": 5194.42
+  },
+  {
+    "name": "Sawayn, Crist and Champlin",
+    "code": 65,
+    "workerCount": 2566,
+    "avgSalary": 6042.52
+  },
+  {
+    "name": "Kilback, Marks and Hills",
+    "code": 66,
+    "workerCount": 2335,
+    "avgSalary": 6823.83
+  },
+  {
+    "name": "Schowalter, Funk and Ebert",
+    "code": 67,
+    "workerCount": 979,
+    "avgSalary": 3594.51
+  },
+  {
+    "name": "Bode, Russel and Kirlin",
+    "code": 68,
+    "workerCount": 576,
+    "avgSalary": 2477.22
+  },
+  {
+    "name": "Luettgen-Toy",
+    "code": 69,
+    "workerCount": 2202,
+    "avgSalary": 6439.42
+  },
+  {
+    "name": "Crona Group",
+    "code": 70,
+    "workerCount": 2464,
+    "avgSalary": 7716.03
+  },
+  {
+    "name": "Aufderhar and Sons",
+    "code": 71,
+    "workerCount": 2972,
+    "avgSalary": 8512.82
+  },
+  {
+    "name": "Renner-Krajcik",
+    "code": 72,
+    "workerCount": 507,
+    "avgSalary": 2791.73
+  },
+  {
+    "name": "Prohaska, Ferry and Wehner",
+    "code": 73,
+    "workerCount": 1367,
+    "avgSalary": 3061.12
+  },
+  {
+    "name": "Morar and Sons",
+    "code": 74,
+    "workerCount": 2301,
+    "avgSalary": 549.95
+  },
+  {
+    "name": "Thiel Inc",
+    "code": 75,
+    "workerCount": 189,
+    "avgSalary": 4324.65
+  },
+  {
+    "name": "Gerhold Group",
+    "code": 76,
+    "workerCount": 2015,
+    "avgSalary": 8374.73
+  },
+  {
+    "name": "Huel Inc",
+    "code": 77,
+    "workerCount": 1691,
+    "avgSalary": 159.36
+  },
+  {
+    "name": "Cole, Leuschke and Mohr",
+    "code": 78,
+    "workerCount": 2115,
+    "avgSalary": 4878.32
+  },
+  {
+    "name": "Dooley Inc",
+    "code": 79,
+    "workerCount": 2088,
+    "avgSalary": 573.49
+  },
+  {
+    "name": "Swaniawski-Dach",
+    "code": 80,
+    "workerCount": 2001,
+    "avgSalary": 5.85
+  },
+  {
+    "name": "Effertz, Armstrong and Hauck",
+    "code": 81,
+    "workerCount": 1331,
+    "avgSalary": 3287.45
+  },
+  {
+    "name": "Adams, Gerlach and Kovacek",
+    "code": 82,
+    "workerCount": 1609,
+    "avgSalary": 47.76
+  },
+  {
+    "name": "Nitzsche-Borer",
+    "code": 83,
+    "workerCount": 1833,
+    "avgSalary": 329.19
+  },
+  {
+    "name": "Breitenberg and Sons",
+    "code": 84,
+    "workerCount": 2885,
+    "avgSalary": 9902.15
+  },
+  {
+    "name": "Luettgen-Ankunding",
+    "code": 85,
+    "workerCount": 445,
+    "avgSalary": 1664.34
+  },
+  {
+    "name": "Pouros-Schuster",
+    "code": 86,
+    "workerCount": 1124,
+    "avgSalary": 324.23
+  },
+  {
+    "name": "Mertz-Grant",
+    "code": 87,
+    "workerCount": 1987,
+    "avgSalary": 9887.97
+  },
+  {
+    "name": "Schultz Inc",
+    "code": 88,
+    "workerCount": 2492,
+    "avgSalary": 1368.12
+  },
+  {
+    "name": "Larson-Hintz",
+    "code": 89,
+    "workerCount": 1140,
+    "avgSalary": 3366.16
+  },
+  {
+    "name": "Zulauf Group",
+    "code": 90,
+    "workerCount": 2913,
+    "avgSalary": 5950.21
+  },
+  {
+    "name": "Bins-Pollich",
+    "code": 91,
+    "workerCount": 2825,
+    "avgSalary": 2936.93
+  },
+  {
+    "name": "Shanahan and Sons",
+    "code": 92,
+    "workerCount": 42,
+    "avgSalary": 13.64
+  },
+  {
+    "name": "Cronin-Boyle",
+    "code": 93,
+    "workerCount": 1613,
+    "avgSalary": 7602.27
+  },
+  {
+    "name": "Considine, Kunze and Haley",
+    "code": 94,
+    "workerCount": 1691,
+    "avgSalary": 2221.53
+  },
+  {
+    "name": "O'Connell-Kulas",
+    "code": 95,
+    "workerCount": 2335,
+    "avgSalary": 9904.34
+  },
+  {
+    "name": "Koss-Hyatt",
+    "code": 96,
+    "workerCount": 2113,
+    "avgSalary": 1489.68
+  },
+  {
+    "name": "Gorczany, Stamm and Connelly",
+    "code": 97,
+    "workerCount": 952,
+    "avgSalary": 5368.06
+  },
+  {
+    "name": "Kreiger, Morissette and Reichert",
+    "code": 98,
+    "workerCount": 1126,
+    "avgSalary": 4978.01
+  },
+  {
+    "name": "Bogisich, Schamberger and Herzog",
+    "code": 99,
+    "workerCount": 1043,
+    "avgSalary": 9052.06
+  }
+]
