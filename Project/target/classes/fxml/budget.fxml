@@ -19,11 +19,11 @@
    <children>
       <SplitPane dividerPositions="0.3528428093645485" layoutX="137.0" layoutY="77.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
-          <AnchorPane maxWidth="220.0" minHeight="200.0" minWidth="130.0" prefWidth="100.0">
+          <AnchorPane maxWidth="210.0" minHeight="200.0" minWidth="210.0" prefWidth="100.0">
                <children>
-                  <TabPane layoutX="-25.0" layoutY="24.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="374.0" prefWidth="208.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
+                  <TabPane fx:id="catTabPane" layoutX="-25.0" layoutY="24.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="374.0" prefWidth="208.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
                     <tabs>
-                      <Tab onSelectionChanged="#onIncomeTab" text="Income">
+                      <Tab fx:id="incomeTab" text="Income">
                         <content>
                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                  <children>
@@ -32,7 +32,7 @@
                               </AnchorPane>
                         </content>
                       </Tab>
-                      <Tab onSelectionChanged="#onExpensesTab" text="Expenses">
+                      <Tab fx:id="expensesTab" text="Expenses">
                         <content>
                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                  <children>
@@ -48,7 +48,7 @@
                <children>
                   <SplitPane dividerPositions="0.1989247311827957" layoutX="32.0" layoutY="24.0" orientation="VERTICAL" prefHeight="374.0" prefWidth="384.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
                     <items>
-                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="113.0" prefWidth="382.0">
+                      <AnchorPane maxHeight="70.0" minHeight="70.0" minWidth="0.0" prefHeight="60.0" prefWidth="382.0">
                            <children>
                               <Label fx:id="balanceLabel" layoutX="147.0" layoutY="2.0" text="0.00" textAlignment="RIGHT" AnchorPane.rightAnchor="20.0">
                                  <font>
@@ -74,6 +74,7 @@
                                     <Button mnemonicParsing="false" onAction="#onDelete" text="Delete..." />
                                  </buttons>
                               </ButtonBar>
+                              <Button fx:id="filterButton" layoutX="14.0" layoutY="255.0" mnemonicParsing="false" text="Filter..." visible="false" />
                            </children>
                         </AnchorPane>
                     </items>
@@ -96,6 +97,13 @@
               <MenuItem mnemonicParsing="false" onAction="#onAbout" text="About" />
             </items>
           </Menu>
+            <Menu mnemonicParsing="false" text="More...">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#onAddCategory" text="Add category" />
+                  <MenuItem mnemonicParsing="false" onAction="#onDeleteCategory" text="Delete category" />
+                  <MenuItem mnemonicParsing="false" onAction="#onForecast" text="Forecast" />
+              </items>
+            </Menu>
         </menus>
       </MenuBar>
    </children>

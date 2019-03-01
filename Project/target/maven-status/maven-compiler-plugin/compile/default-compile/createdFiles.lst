@@ -1,0 +1,16 @@
+project\controllers\DeleteController.class
+project\Serialization\LocalDateTimeDeserializer.class
+project\repositories\EntryRepository.class
+project\Serialization\LocalDateTimeSerializer.class
+project\controllers\DeleteCategoryController.class
+project\FileHandler.class
+project\controllers\ForecastController.class
+project\Entry.class
+project\FileHandler$1.class
+project\Main.class
+project\controllers\NewController.class
+project\controllers\EditController.class
+project\controllers\AddCategoryController.class
+project\controllers\HelpController.class
+project\repositories\CategoryRepository.class
+project\controllers\BudgetController.class

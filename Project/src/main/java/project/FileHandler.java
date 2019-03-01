@@ -2,9 +2,8 @@ package project;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.type.MapType;
-import com.fasterxml.jackson.databind.type.TypeFactory;
 import javafx.collections.ObservableList;
+import project.repositories.EntryRepository;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,7 +16,7 @@ public class FileHandler {
     private Map<String, ObservableList<Entry>> tempMap = new HashMap<>();
 
     public FileHandler() {
-        tempMap.put("IncomeList",EntryRepository.getIncomeList());
+        tempMap.put("IncomeList", EntryRepository.getIncomeList());
         tempMap.put("ExpensesList", EntryRepository.getExpenseList());
     }
 

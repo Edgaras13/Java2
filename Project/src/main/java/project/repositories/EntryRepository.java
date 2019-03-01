@@ -1,7 +1,8 @@
-package project;
+package project.repositories;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import project.Entry;
 
 public class EntryRepository {
 

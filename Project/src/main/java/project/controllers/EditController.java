@@ -3,9 +3,9 @@ package project.controllers;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import project.CategoryRepository;
+import project.repositories.CategoryRepository;
 import project.Entry;
-import project.EntryRepository;
+import project.repositories.EntryRepository;
 
 import java.math.BigDecimal;
 import java.net.URL;

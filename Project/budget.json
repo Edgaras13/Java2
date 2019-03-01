@@ -1,0 +1,49 @@
+{
+  "IncomeList" : [ {
+    "category" : "Salary",
+    "amount" : 840.0,
+    "description" : "Salary for February",
+    "date" : "2019-02-10T00:00:00"
+  }, {
+    "category" : "Salary",
+    "amount" : 840.0,
+    "description" : "Salary for January",
+    "date" : "2019-01-10T00:00:00"
+  }, {
+    "category" : "Found",
+    "amount" : 10.0,
+    "description" : "Found 10 Euro ",
+    "date" : "2019-02-21T00:00:00"
+  }, {
+    "category" : "Family",
+    "amount" : 100.0,
+    "description" : "Mom gave me money",
+    "date" : "2019-02-28T00:00:00"
+  } ],
+  "ExpensesList" : [ {
+    "category" : "Medical",
+    "amount" : 20.41,
+    "description" : "Bought vitamins",
+    "date" : "2018-03-14T00:00:00"
+  }, {
+    "category" : "Bills",
+    "amount" : 250.0,
+    "description" : "Rent",
+    "date" : "2019-02-10T00:00:00"
+  }, {
+    "category" : "Bills",
+    "amount" : 250.0,
+    "description" : "Rent",
+    "date" : "2019-01-10T00:00:00"
+  }, {
+    "category" : "Bills",
+    "amount" : 110.0,
+    "description" : "Utilities",
+    "date" : "2019-02-10T00:00:00"
+  }, {
+    "category" : "Bills",
+    "amount" : 140.0,
+    "description" : "Utilities",
+    "date" : "2019-01-10T00:00:00"
+  } ]
+}

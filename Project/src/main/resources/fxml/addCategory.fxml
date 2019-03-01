@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="120.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controllers.AddCategoryController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Category name" />
+      <TextField fx:id="categoryField" layoutX="14.0" layoutY="38.0" />
+      <Button layoutX="227.0" layoutY="81.0" mnemonicParsing="false" onAction="#onConfirm" text="Confirm" />
+      <RadioButton layoutX="184.0" layoutY="23.0" mnemonicParsing="false" onAction="#onIncome" selected="true" text="Income" toggleGroup="$categoryGroup">
+         <toggleGroup>
+            <ToggleGroup fx:id="categoryGroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="184.0" layoutY="52.0" mnemonicParsing="false" onAction="#onExpenses" text="Expenses" toggleGroup="$categoryGroup" />
+   </children>
+</AnchorPane>

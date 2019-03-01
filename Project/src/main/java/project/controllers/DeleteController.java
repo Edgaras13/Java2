@@ -3,8 +3,8 @@ package project.controllers;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
-import project.CategoryRepository;
-import project.EntryRepository;
+import project.repositories.CategoryRepository;
+import project.repositories.EntryRepository;
 
 import java.net.URL;
 import java.util.ResourceBundle;

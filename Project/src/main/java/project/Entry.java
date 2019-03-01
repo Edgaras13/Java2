@@ -1,10 +1,14 @@
 package project;
 
+
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import project.Serialization.LocalDateTimeDeserializer;
+import project.Serialization.LocalDateTimeSerializer;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class Entry {
@@ -12,14 +16,15 @@ public class Entry {
     private String category;
     private BigDecimal amount;
     private String description;
-    @JsonDeserialize(using = LocalDateDeserializer.class)
-    private LocalDate date;
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
+    private LocalDateTime date;
 
     public Entry(String category, BigDecimal amount, LocalDate date, String description) {
         this.category = category;
         this.amount = amount;
         this.description = description;
-        this.date = date;
+        this.date = date.atStartOfDay();
     }
 
     public Entry() {
@@ -38,7 +43,7 @@ public class Entry {
     }
 
     public LocalDate getDate() {
-        return date;
+        return date.toLocalDate();
     }
 
     public void setCategory(String category) {
@@ -53,8 +58,13 @@ public class Entry {
         this.description = description;
     }
 
-    public void setDate(LocalDate date) {
+    public void setDate(LocalDateTime date) {
         this.date = date;
+    }
+
+    public Entry setCategoryAndReturn(String category){
+        this.category = category;
+        return this;
     }
 
     @Override
